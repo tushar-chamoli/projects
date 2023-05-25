@@ -8,6 +8,9 @@ import pickle
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 st.set_page_config(page_title='Sentiment/Emotion Analyzer', page_icon=':smiley:', layout='wide')
 
 st.title('Sentiment/Emotion Analyzer')
